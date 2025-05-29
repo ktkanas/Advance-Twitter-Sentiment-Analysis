@@ -18,50 +18,8 @@
 - **Docker Containerization** for easy deployment
 - **CI/CD Pipeline** with automated testing
 
-## 📊 Demo
 
-![Dashboard Preview](assets/dashboard_preview.gif)
 
-**Live Demo**: [https://your-app.herokuapp.com](https://your-app.herokuapp.com)
-
-## 🏗️ Project Architecture
-
-```
-├── data/
-│   ├── raw/                    # Raw datasets
-│   ├── processed/              # Cleaned data
-│   └── external/               # External data sources
-├── src/
-│   ├── data/
-│   │   ├── data_loader.py      # Data loading utilities
-│   │   ├── preprocessor.py     # Text preprocessing pipeline
-│   │   └── twitter_api.py      # Twitter API integration
-│   ├── models/
-│   │   ├── naive_bayes.py      # Traditional ML models
-│   │   ├── lstm_model.py       # Deep learning models
-│   │   ├── bert_model.py       # Transformer models
-│   │   └── ensemble.py         # Model ensemble
-│   ├── visualization/
-│   │   ├── plots.py            # Plotting utilities
-│   │   └── dashboard.py        # Interactive dashboard
-│   ├── api/
-│   │   ├── app.py              # FastAPI application
-│   │   └── schemas.py          # Pydantic models
-│   └── utils/
-│       ├── config.py           # Configuration management
-│       ├── logger.py           # Logging utilities
-│       └── metrics.py          # Evaluation metrics
-├── notebooks/
-│   ├── 01_EDA.ipynb           # Exploratory Data Analysis
-│   ├── 02_Model_Comparison.ipynb
-│   └── 03_Results_Analysis.ipynb
-├── tests/                      # Unit and integration tests
-├── docker/                     # Docker configuration
-├── docs/                       # Documentation
-├── requirements.txt
-├── setup.py
-└── README.md
-```
 
 ## 🛠️ Installation & Setup
 
@@ -250,9 +208,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👤 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-- Email: your.email@example.com
+- GitHub: [@ktkanas](https://github.com/ktkanas)
+- LinkedIn: [Muhammad Anas](https://linkedin.com/in/anascs)
+- Email: anasktk.official@gmail.com
 
 ## 🙏 Acknowledgments
 
@@ -263,10 +221,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 ⭐ If you found this project helpful, please give it a star!
-
-## 📊 Project Statistics
-
-![GitHub stars](https://img.shields.io/github/stars/yourusername/advanced-sentiment-analysis)
-![GitHub forks](https://img.shields.io/github/forks/yourusername/advanced-sentiment-analysis)
-![GitHub issues](https://img.shields.io/github/issues/yourusername/advanced-sentiment-analysis)
-![GitHub last commit](https://img.shields.io/github/last-commit/yourusername/advanced-sentiment-analysis)
